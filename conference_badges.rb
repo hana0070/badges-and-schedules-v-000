@@ -9,4 +9,5 @@ def batch_badge_creator(attendees)
   attendes.map do |attendee|
     "Hello, my name is #{attendee}."
   end
+  attendees
 end
